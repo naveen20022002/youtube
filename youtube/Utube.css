@@ -1,0 +1,84 @@
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: arial;
+    column-gap: 4px;
+    row-gap: 6px;
+}
+.info1{
+    width: 246px;
+}
+.img1{
+    width: 300px;
+}
+.video-info{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.title1{
+    font-weight: 600;
+    margin: 0;
+}
+.prf11{
+    width: 46px;
+    border-radius: 23px;
+}
+.channel-name{
+    margin-bottom: 3px;
+}
+.video-stats{
+    margin: 0;
+}
+@media (max-width: 640px)
+{
+    .video-grid{
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+@media (min-width: 940px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.video-preview1{
+    cursor: pointer;
+}
+.video-preview:hover {
+    background-color: gray;
+}
+.body{
+   margin-bottom: 1000px;
+   
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between;
+    height: 50px;
+}
+.right-section{
+    background-color: red;
+    align-items: center;
+}
+.middle-section{
+    background-color: blue;
+}
+
+.humbergur{
+    height: 14px;
+    margin-top: 6px;
+    margin-left: 20px;
+
+}
+.logo{
+    height: 25px;
+    margin-left: 14px;
+}
+.hum{
+    display: flex;
+    flex-direction: row;
+}

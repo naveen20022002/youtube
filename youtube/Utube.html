@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Youtube
+        </title>
+        <style>
+                .video-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                font-family: arial;
+                column-gap: 4px;
+                row-gap: 6px;
+                margin-top: 50px;
+                }
+                .info1{
+                    width: 246px;
+                }
+                .img1{
+                    width: 330px;
+                }
+                .video-info{
+                    display: grid;
+                    grid-template-columns: 50px 1fr;
+                }
+                .title1{
+                    font-weight: 600;
+                    margin: 0;
+                }
+                .prf11{
+                    width: 46px;
+                    border-radius: 23px;
+                }
+                .channel-name{
+                    margin-bottom: 3px;
+                }
+                .video-stats{
+                    margin: 0;
+                }
+                @media (max-width: 640px)
+                {
+                    .video-grid{
+                        grid-template-columns: 1fr 1fr ;
+                    }
+                }
+                @media (min-width: 940px){
+                    .video-grid{
+                        grid-template-columns: 1fr 1fr 1fr 1fr;
+                    }
+                }
+
+                .video-preview1{
+                    cursor: pointer;
+                }
+                .video-preview1:hover {
+                    background-color: rgb(206, 195, 195);
+                }
+                .body{
+                margin-bottom: 1000px;
+                padding-top: 20px;
+                padding-left: 44px;
+                
+                }
+
+
+                .header{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: space-between;
+                    justify-content: space-between;
+                    height: 50px;
+                    border-bottom: 1px solid rgb(226, 219, 219);
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    background-color: white;
+
+                }
+                .right-section{
+                    background-color: red;
+                    display: flex;
+                    align-items: center;
+                }
+                .middle-section{
+                   margin-right: 100px;
+                   display: flex;
+                   align-items: center;
+                   width: 500px;
+                   
+                }
+                .left-section{
+                    display: flex;
+                    align-items: center;
+                    flex-shrink: 0;
+                }
+                .humbergur{
+                    height: 14px;
+                    margin-top: 6px;
+                    margin-left: 20px;
+
+                }
+                .logo{
+                    height: 25px;
+                    margin-left: 14px;
+                }
+                .hum{
+                    display: flex;
+                    flex-direction: row;
+                    
+                }
+                .search-bar{
+                    padding-left: 5px;
+                    font-family: arial;
+                    height: 30px;
+                    width: 100%;
+                    border-radius: 3px;
+                    border: 1px solid grey;
+                    
+                    
+                }
+                .search-icon{
+                    margin-left: -1px;
+                    height: 34px;
+                    border: 1px solid grey;
+                    margin-right: 2px;
+                    width: 30px;
+                    padding-right: 10px;
+                    
+                }
+                .voice{
+                    width: 34px; 
+                    height: 34px;
+                    border: 1px solid grey;
+                    border-radius: 17px;
+                    
+                }
+                .sidebar{
+                    display: flex;
+                    background-color: white;
+                    flex-direction: column;
+                    position: fixed;
+                    top: 50px;
+                    left: 0;
+                    bottom: 0;
+                    width: 40px;
+                    border: 1px solid  rgb(226, 219, 219);
+                    align-items: center;
+                    justify-content: space-between;
+                    opacity: 2;
+                }
+                .side{
+                    width: 30px;
+                    height: 60px;
+                }
+                .prf1111{
+                    width: 24px;
+                    display: flex;
+                    align-items: left;
+                }
+        </style>
+    </head>
+    <body class="body">
+        <header class="header">
+            <div class="left-section">
+                <div class="hum">
+                    <img class="humbergur" src="C:\Users\ELCOT\Desktop\basics-images\Screenshot (13).png" >
+                    <img class="logo" src="C:\Users\ELCOT\Desktop\basics-images\Screenshot (14).png">
+                </div>
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-icon"><img class="prf1111" src="C:\Users\ELCOT\Desktop\basics-images\youtube\img\icons8-search-25.png"></button>
+                <button class="voice"></button>
+            </div>
+            <div class="right-section">
+                hello3
+            </div>
+
+        </header>
+
+
+        <div class="sidebar">
+                <div><button class="side"></button></div>
+                <div><button class="side"></button></div>
+                <div><button class="side"></button></div>
+                <div><button class="side"></button></div>
+                <div><button class="side"></button></div>
+        </div>
+        <div class="video-grid">
+            <div class="video-preview1">
+                <div><img class="img1" src="C:\Users\ELCOT\Desktop\basics-images\all-images\hq720.webp"></div>
+                <div class="video-info">
+                    <div class="prf1"> <img class="prf11" src="C:\Users\ELCOT\Desktop\basics-images\all-images\prf1.jpg"></div>
+                    <div class="info1">
+                        <p class="title1">THAIKELAVI-Official video | Dhanush | Thiruchittrambalam | Lyrics</p>
+                        <p class="channel-name">Sun TV&#10003;</p>
+                        <p class="video-stats">6.1M views&#8226; 4days ago</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="video-preview1"> 
+                <div><img class="img1" src="C:\Users\ELCOT\Desktop\basics-images\all-images\hq720.webp"></div>
+                <div class="video-info">
+                    <div class="prf1"> <img class="prf11" src="C:\Users\ELCOT\Desktop\basics-images\all-images\prf1.jpg"></div>
+                    <div class="info1">
+                        <p class="title1">THAIKELAVI-Official video | Dhanush | Thiruchittrambalam | Lyrics</p>
+                        <p class="channel-name">Sun TV&#10003;</p>
+                        <p class="video-stats">6.1M views&#8226; 4days ago</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="video-preview1">
+                <div><img class="img1" src="C:\Users\ELCOT\Desktop\basics-images\all-images\hq720.webp"></div>
+                <div class="video-info">
+                    <div class="prf1"> <img class="prf11" src="C:\Users\ELCOT\Desktop\basics-images\all-images\prf1.jpg"></div>
+                    <div class="info1">
+                        <p class="title1">THAIKELAVI-Official video | Dhanush | Thiruchittrambalam | Lyrics</p>
+                        <p class="channel-name">Sun TV&#10003;</p>
+                        <p class="video-stats">6.1M views&#8226; 4days ago</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="video-preview1">
+                <div><img class="img1" src="C:\Users\ELCOT\Desktop\basics-images\all-images\hq720.webp"></div>
+                <div class="video-info">
+                    <div class="prf1"> <img class="prf11" src="C:\Users\ELCOT\Desktop\basics-images\all-images\prf1.jpg"></div>
+                    <div class="info1">
+                        <p class="title1">THAIKELAVI-Official video | Dhanush | Thiruchittrambalam | Lyrics</p>
+                        <p class="channel-name">Sun TV&#10003;</p>
+                        <p class="video-stats">6.1M views&#8226; 4days ago</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="video-preview1">
+                <div><img class="img1" src="C:\Users\ELCOT\Desktop\basics-images\all-images\hq720.webp"></div>
+                <div class="video-info">
+                    <div class="prf1"> <img class="prf11" src="C:\Users\ELCOT\Desktop\basics-images\all-images\prf1.jpg"></div>
+                    <div class="info1">
+                        <p class="title1">THAIKELAVI-Official video | Dhanush | Thiruchittrambalam | Lyrics</p>
+                        <p class="channel-name">Sun TV&#10003;</p>
+                        <p class="video-stats">6.1M views&#8226; 4days ago</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="video-preview1">
+                <div><img class="img1" src="C:\Users\ELCOT\Desktop\basics-images\all-images\hq720.webp"></div>
+                <div class="video-info">
+                    <div class="prf1"> <img class="prf11" src="C:\Users\ELCOT\Desktop\basics-images\all-images\prf1.jpg"></div>
+                    <div class="info1">
+                        <p class="title1">THAIKELAVI-Official video | Dhanush | Thiruchittrambalam | Lyrics</p>
+                        <p class="channel-name">Sun TV&#10003;</p>
+                        <p class="video-stats">6.1M views&#8226; 4days ago</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="video-preview1">
+                <div><img class="img1" src="C:\Users\ELCOT\Desktop\basics-images\all-images\hq720.webp"></div>
+                <div class="video-info">
+                    <div class="prf1"> <img class="prf11" src="C:\Users\ELCOT\Desktop\basics-images\all-images\prf1.jpg"></div>
+                    <div class="info1">
+                        <p class="title1">THAIKELAVI-Official video | Dhanush | Thiruchittrambalam | Lyrics</p>
+                        <p class="channel-name">Sun TV&#10003;</p>
+                        <p class="video-stats">6.1M views&#8226; 4days ago</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="video-preview1">
+                <div><img class="img1" src="C:\Users\ELCOT\Desktop\basics-images\all-images\hq720.webp"></div>
+                <div class="video-info">
+                    <div class="prf1"> <img class="prf11" src="C:\Users\ELCOT\Desktop\basics-images\all-images\prf1.jpg"></div>
+                    <div class="info1">
+                        <p class="title1">THAIKELAVI-Official video | Dhanush | Thiruchittrambalam | Lyrics</p>
+                        <p class="channel-name">Sun TV&#10003;</p>
+                        <p class="video-stats">6.1M views&#8226; 4days ago</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </body>
+</html>
